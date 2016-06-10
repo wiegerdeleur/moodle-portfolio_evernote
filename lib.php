@@ -194,7 +194,7 @@ class portfolio_plugin_evernote extends portfolio_plugin_push_base {
     }
 
     public static function allows_multiple_exports() {
-        return true;
+        return false;
     }
 
     public static function get_name() {
